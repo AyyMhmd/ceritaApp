@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content="Dicoding Story - Share your coding journey"/><meta name="theme-color" content="#2196f3"/><link rel="shortcut icon" href="favicon.png"/><link rel="manifest" href="manifest.json"/><link rel="apple-touch-icon" href="/icons/icon-192x192.png"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.3/leaflet.css" rel="stylesheet"/><link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css"/><title>Kisah Kita</title><script defer="defer" src="app.bundle.js"></script></head><body><header><div class="main-header container"><a class="brand-name" href="#/">Kisah Kita</a><nav id="navigation-drawer" class="navigation-drawer"><ul id="nav-list" class="nav-list"><li><a href="#/"><i class="fas fa-home"></i> Home</a></li><li><a href="#/add"><i class="fas fa-plus"></i> Add Story</a></li><li><a href="#/bookmarks"><i class="fas fa-bookmark"></i> Bookmarks</a></li><li><a href="#/about"><i class="fas fa-info-circle"></i> About</a></li><li id="auth-menu"><a href="#/login"><i class="fas fa-sign-in-alt"></i> Login</a></li></ul></nav><button id="drawer-button" class="drawer-button" aria-label="Toggle navigation">☰</button></div></header><main id="main-content" class="main-content"></main><footer><div class="container"><p class="text-center">&copy; 2025 Kisah Kita - By AyiMhmd</p></div></footer><script>// Register Service Worker
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("/sw.js")
+            .then((registration) => {
+              console.log("SW registered: ", registration);
+            })
+            .catch((error) => {
+              console.log("SW registration failed: ", error);
+            });
+        });
+      }</script></body></html>

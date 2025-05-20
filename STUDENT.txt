@@ -2,3 +2,4 @@ APP_URL=https://story-api.dicoding.dev/v1
 MAP_SERVICE_API_KEY=pk.eyJ1IjoieW91cnVzZXJuYW1lIiwiYSI6ImNsZXhhbXBsZWtleTEyMyJ9.ABCDEFGhIJklMNOPqrstUVwxyz012345
 
 
+link deploy = https://ayymhmd.github.io/ceritaApp/
