@@ -29,6 +29,6 @@
     "workbox-window": "^7.3.0"
   },
   "dependencies": {
-    "mapbox-gl": "^3.11.0"
+    "mapbox-gl": "^3.12.0"
   }
 }
